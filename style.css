@@ -1,0 +1,354 @@
+/* Estilos gerais */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+  margin: 0;
+  margin-top: px;
+  margin-bottom: 0px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+  
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #f4eded;
+  text-decoration: none;
+  font-size: 18px;
+  display: block; 
+  padding: 10px; 
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do header */
+header {
+  position: relative;
+  height: 300px;
+}
+.horarioheader img {
+  position:static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(116, 120, 118);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.header-overlay {
+  position:static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(116, 120, 118);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.header-overlay h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.header-overlay p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.header-overlay button {
+  background-color: #fff;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding-top: 50px;
+}
+
+/* Estilos da seção "Sobre Nós" */
+.about {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.about h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about p {
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.aboutpage img {
+  position:static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(116, 120, 118);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0px;
+}
+/* Estilos da seção "Nossos serviços" */
+.services {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.services h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services li {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.services li h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.services li p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Estilos da seção "Depoimentos" */
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+.testimonials img {
+width: 500px;
+align-items: center;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonials ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonials li {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+.medico img{
+  width: 500px;
+  height: 350px;
+  }
+  
+  /* Estilos do footer */
+  footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+  }
+  
+  footer p {
+  font-size: 16px;
+  }
+  
+  footer a {
+  color: #fff;
+   /* Estilos da tabela */
+  }
+  #tabela-precos {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tabela-precos th, #tabela-precos td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  #tabela-precos th {
+    background-color: #f2f2f2;
+  }
+  
+  #tabela-precos tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+   /* Estilos do contato */
+  .contact {
+    text-align: center;
+  }
+  .contatoheader img {
+  position:static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(116, 120, 118);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0px;
+}    
+.contact h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+  }
+  
+ /* Estilos do formulario */
+form {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebebeb;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .contact form label {
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  }
+  
+  .contact form button {
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  }
+
+input[type="submit"] {
+  background-color: #ff5f6d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #e64c3c;
+}
+
+
+  
